@@ -4,12 +4,13 @@ importScripts('https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging-compa
 
 // Initialize Firebase in Service Worker
 firebase.initializeApp({
-    apiKey: "AIzaSyA5zkEmDqFS8YG7ihZjO0GOjN3xFKf1hmg",
-    authDomain: "angular-push-notificatio-6a536.firebaseapp.com",
-    projectId: "angular-push-notificatio-6a536",
-    storageBucket: "angular-push-notificatio-6a536.firebasestorage.app",
-    messagingSenderId: "339433773489",
-    appId: "1:339433773489:web:e8951f1e6035dda3a74590",
+    apiKey: 'Your-Production-API-Key',
+    authDomain: 'your-prod-auth-domain.firebaseapp.com',
+    projectId: 'your-prod-project-id',
+    storageBucket: 'your-prod-storage-bucket.appspot.com',
+    messagingSenderId: 'your-prod-messaging-sender-id',
+    appId: 'your-prod-app-id',
+    measurementId: 'your-prod-measurement-id',
 });
 
 const messaging = firebase.messaging();
